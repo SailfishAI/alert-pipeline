@@ -119,3 +119,4 @@ Webhook.init(
 );
 
 export { Webhook, WebhookAttributes, WebhookCreationAttributes, WebhookAuthentication };
+// feat: add alert dependency chains
