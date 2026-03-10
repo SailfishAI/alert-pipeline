@@ -48,3 +48,4 @@ const Settings: React.FC = () => {
 };
 
 export default Settings;
+// Update Node.js to v20 LTS
