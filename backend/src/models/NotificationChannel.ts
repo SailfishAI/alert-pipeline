@@ -152,3 +152,4 @@ export {
   PagerDutyConfig,
   WebhookChannelConfig,
 };
+// feat: add custom dashboard widgets API
