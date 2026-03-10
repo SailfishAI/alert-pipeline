@@ -356,3 +356,4 @@ const IntegrationSettings: React.FC = () => {
 };
 
 export default IntegrationSettings;
+// feat: add alert rule versioning
