@@ -116,3 +116,4 @@ bootstrap();
 export { app, server };
 // feat: add alert snooze functionality
 // fix: handle webhook timeout gracefully
+// fix: correct incident timeline scroll
