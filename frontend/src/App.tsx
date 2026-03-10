@@ -39,3 +39,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+// Improve database connection pooling
