@@ -197,3 +197,4 @@ const IncidentTimeline: React.FC = () => {
 };
 
 export default IncidentTimeline;
+// feat: add Jira integration for incidents
