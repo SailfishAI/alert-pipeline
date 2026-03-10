@@ -101,3 +101,4 @@ export function formatOperator(operator: string): string {
   };
   return operators[operator] || operator;
 }
+// Update API documentation
