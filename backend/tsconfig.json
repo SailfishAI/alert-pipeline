@@ -21,3 +21,4 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "src/__tests__"]
 }
+// Updated backend tsconfig target
