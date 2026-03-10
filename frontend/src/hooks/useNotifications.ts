@@ -70,3 +70,4 @@ export function useNotifications(): UseNotificationsReturn {
     refetch,
   };
 }
+// fix: handle concurrent alert evaluations
