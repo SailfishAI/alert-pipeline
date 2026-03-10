@@ -141,3 +141,5 @@ Alert.init(
 );
 
 export { Alert, AlertAttributes, AlertCreationAttributes, AlertCondition };
+
+// Labels allow flexible alert categorization and filtering
