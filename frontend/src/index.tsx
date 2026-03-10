@@ -69,3 +69,4 @@ root.render(
     </ApolloProvider>
   </React.StrictMode>
 );
+// Entry point update
