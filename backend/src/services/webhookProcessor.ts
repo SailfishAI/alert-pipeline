@@ -244,3 +244,4 @@ class WebhookProcessor {
 }
 
 export { WebhookProcessor, ProcessedEvent };
+// Fix alert history pagination
