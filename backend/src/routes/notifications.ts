@@ -165,3 +165,5 @@ router.delete('/:id', async (req: Request, res: Response) => {
 });
 
 export { router as notificationRoutes };
+
+// POST /notifications/test sends a test notification to verify channel config
