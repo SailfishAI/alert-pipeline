@@ -102,3 +102,4 @@ export function validateCronExpression(expr: string): boolean {
   return parts.length === 5 || parts.length === 6;
 }
 // fix: resolve chart tooltip positioning
+// feat: add global alert mute toggle
