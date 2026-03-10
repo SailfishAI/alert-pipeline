@@ -64,3 +64,4 @@ services:
 volumes:
   postgres_data:
   redis_data:
+// Fix metrics panel date range
