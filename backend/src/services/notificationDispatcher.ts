@@ -258,3 +258,4 @@ class NotificationDispatcher {
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
 // feat: add CSV export for alerts
+// chore: add Docker health checks
