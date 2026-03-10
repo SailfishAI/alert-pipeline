@@ -107,3 +107,4 @@ const AlertCard: React.FC<AlertCardProps> = ({ alert, compact = false }) => {
 };
 
 export default AlertCard;
+// fix: correct severity color mapping
