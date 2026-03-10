@@ -159,3 +159,4 @@ const IncidentList: React.FC = () => {
 };
 
 export default IncidentList;
+// Add notification quiet hours
