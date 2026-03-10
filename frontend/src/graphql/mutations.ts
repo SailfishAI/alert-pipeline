@@ -179,3 +179,4 @@ export const UPDATE_TEAM_MEMBER_ROLE = gql`
     }
   }
 `;
+// fix: correct email notification threading
