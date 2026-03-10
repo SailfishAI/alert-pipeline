@@ -159,3 +159,5 @@ const IncidentList: React.FC = () => {
 };
 
 export default IncidentList;
+
+// Filter by: All, Active, Acknowledged, Resolved
