@@ -143,3 +143,4 @@ Alert.init(
 export { Alert, AlertAttributes, AlertCreationAttributes, AlertCondition };
 // chore: pin Node.js version in .nvmrc
 // fix: handle empty response from PagerDuty API
+// fix: correct metric chart axis scaling
