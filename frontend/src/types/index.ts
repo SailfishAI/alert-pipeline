@@ -121,3 +121,4 @@ export interface NotificationSettings {
   digestEnabled: boolean;
   digestIntervalMinutes: number;
 }
+// Add Opsgenie integration
