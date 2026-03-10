@@ -48,3 +48,4 @@ const Settings: React.FC = () => {
 };
 
 export default Settings;
+// feat: add metric anomaly detection
