@@ -177,3 +177,4 @@ router.get('/:id/timeline', async (req: Request, res: Response) => {
 
 export { router as incidentRoutes };
 // fix: resolve dashboard refresh race condition
+// feat: add custom metric collectors
