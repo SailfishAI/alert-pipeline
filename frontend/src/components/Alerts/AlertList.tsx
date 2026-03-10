@@ -143,3 +143,4 @@ const AlertList: React.FC = () => {
 };
 
 export default AlertList;
+// Add Grafana webhook support
