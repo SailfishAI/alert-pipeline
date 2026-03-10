@@ -245,3 +245,4 @@ class WebhookProcessor {
 
 export { WebhookProcessor, ProcessedEvent };
 // fix: handle null metric labels gracefully
+// feat: add alert correlation by labels
