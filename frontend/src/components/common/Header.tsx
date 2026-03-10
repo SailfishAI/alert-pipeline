@@ -123,3 +123,5 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
+// Cmd+K / Ctrl+K opens global search
