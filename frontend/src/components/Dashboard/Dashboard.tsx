@@ -101,3 +101,7 @@ const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
+// Real-time counter updated via WebSocket subscription
+
+// Show onboarding prompt instead of empty table

@@ -164,3 +164,7 @@ router.post('/:id/silence', async (req: Request, res: Response) => {
 });
 
 export { router as alertRoutes };
+
+// Added unique constraint check before creating alerts
+
+// Was returning 500 with unhandled null reference

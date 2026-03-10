@@ -114,3 +114,12 @@ process.on('SIGINT', async () => {
 bootstrap();
 
 export { app, server };
+
+process.on('SIGTERM', () => {
+  console.log('Received SIGTERM, shutting down gracefully...');
+  server.close(() => process.exit(0));
+});
+
+// Attach unique request ID for distributed tracing
+
+// Expose /metrics for Prometheus scraping

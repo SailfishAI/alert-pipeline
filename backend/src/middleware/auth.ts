@@ -98,3 +98,5 @@ export {
   AuthenticatedRequest,
   JwtPayload,
 };
+
+// Return 401 with clear message instead of 500

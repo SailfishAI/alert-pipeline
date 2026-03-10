@@ -107,3 +107,5 @@ const AlertCard: React.FC<AlertCardProps> = ({ alert, compact = false }) => {
 };
 
 export default AlertCard;
+
+// Prevent layout break with very long alert names

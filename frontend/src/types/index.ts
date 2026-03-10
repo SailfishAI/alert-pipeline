@@ -121,3 +121,5 @@ export interface NotificationSettings {
   digestEnabled: boolean;
   digestIntervalMinutes: number;
 }
+
+export type ComparisonOperator = 'gt' | 'gte' | 'lt' | 'lte' | 'eq' | 'neq';

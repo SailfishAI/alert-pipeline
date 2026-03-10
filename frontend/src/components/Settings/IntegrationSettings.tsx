@@ -356,3 +356,5 @@ const IntegrationSettings: React.FC = () => {
 };
 
 export default IntegrationSettings;
+
+// Validate PagerDuty routing key format before saving

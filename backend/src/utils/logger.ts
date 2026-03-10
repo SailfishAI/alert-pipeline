@@ -93,3 +93,5 @@ function createChildLogger(context: Record<string, unknown>): winston.Logger {
 }
 
 export { logger, createChildLogger };
+
+const SENSITIVE_FIELDS = ['password', 'token', 'apiKey', 'secret', 'authorization'];

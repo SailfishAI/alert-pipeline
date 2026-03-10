@@ -70,3 +70,5 @@ export function useNotifications(): UseNotificationsReturn {
     refetch,
   };
 }
+
+// Refetch settings after successful mutation

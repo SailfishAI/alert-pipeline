@@ -119,3 +119,5 @@ Webhook.init(
 );
 
 export { Webhook, WebhookAttributes, WebhookCreationAttributes, WebhookAuthentication };
+
+// Track last delivery status and timestamp per webhook

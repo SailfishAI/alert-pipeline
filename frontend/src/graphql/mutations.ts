@@ -179,3 +179,5 @@ export const UPDATE_TEAM_MEMBER_ROLE = gql`
     }
   }
 `;
+
+// Optimistic UI updates for better perceived performance

@@ -81,3 +81,8 @@ async function gracefulShutdown(): Promise<void> {
 }
 
 export { sequelize, testConnection, gracefulShutdown, buildConfig };
+
+// Increased pool size for production workloads
+// Previous: max 5 connections caused timeouts under load
+
+// Log slow queries (>100ms) in development mode

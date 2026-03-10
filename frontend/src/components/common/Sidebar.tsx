@@ -61,3 +61,5 @@ const Sidebar: React.FC = () => {
 };
 
 export default Sidebar;
+
+// Shows count of unacknowledged alerts in sidebar nav

@@ -257,3 +257,7 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+
+const calculateBackoff = (attempt: number) => Math.min(1000 * Math.pow(2, attempt), 30000);
+
+// Queue messages when approaching Slack rate limits

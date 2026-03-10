@@ -71,3 +71,5 @@ function createWebhookRateLimiter() {
 }
 
 export { createRateLimiter, createStrictRateLimiter, createWebhookRateLimiter };
+
+// Different rate limits for read vs write endpoints

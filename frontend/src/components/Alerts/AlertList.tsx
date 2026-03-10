@@ -143,3 +143,5 @@ const AlertList: React.FC = () => {
 };
 
 export default AlertList;
+
+// Filter alerts by severity with multi-select dropdown

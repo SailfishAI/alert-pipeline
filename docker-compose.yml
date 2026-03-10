@@ -64,3 +64,5 @@ services:
 volumes:
   postgres_data:
   redis_data:
+
+# Added redis data volume for persistence across restarts

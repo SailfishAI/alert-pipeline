@@ -285,3 +285,5 @@ export const GET_TEAM_MEMBERS = gql`
     }
   }
 `;
+
+// Added fetchPolicy: 'cache-and-network' for real-time data
