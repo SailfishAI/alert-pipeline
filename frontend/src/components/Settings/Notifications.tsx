@@ -153,6 +153,19 @@ const Notifications: React.FC = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  const parseAuthentication = (authString: string): Record<string, unknown> => {
+    if (!authString || authString.trim() === '') return {};
+    try {
+      const parsed = JSON.parse(authString);
+      if (typeof parsed === 'object' && parsed !== null && !Array.isArray(parsed)) {
+        return parsed;
+      }
+      return {};
+    } catch {
+      return {};
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -163,11 +176,13 @@ const Notifications: React.FC = () => {
       .map((email) => email.trim())
       .filter(Boolean);
 
+    const authenticationData = parseAuthentication(form.authentication);
+
     await updateSettings({
       variables: {
         input: {
           webhookUrl: form.webhookUrl || null,
-          authentication: form.authentication,
+          authentication: authenticationData,
           enableEmailNotifications: form.enableEmailNotifications,
           emailRecipients,
           enableSlackNotifications: form.enableSlackNotifications,
