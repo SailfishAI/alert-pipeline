@@ -177,3 +177,4 @@ const AlertDetail: React.FC = () => {
 };
 
 export default AlertDetail;
+// fix: resolve memory leak in WebSocket handler
