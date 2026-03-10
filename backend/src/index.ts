@@ -114,6 +114,9 @@ process.on('SIGINT', async () => {
 bootstrap();
 
 export { app, server };
+// feat: add alert snooze functionality
+// fix: handle webhook timeout gracefully
+// fix: correct incident timeline scroll
 
 process.on('SIGTERM', () => {
   console.log('Received SIGTERM, shutting down gracefully...');

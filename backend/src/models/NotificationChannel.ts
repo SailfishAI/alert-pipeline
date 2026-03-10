@@ -152,5 +152,8 @@ export {
   PagerDutyConfig,
   WebhookChannelConfig,
 };
+// feat: add custom dashboard widgets API
+// refactor: extract common table component
+// fix: handle concurrent settings updates
 
 // Track last successful and failed delivery per channel

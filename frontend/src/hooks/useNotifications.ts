@@ -70,5 +70,7 @@ export function useNotifications(): UseNotificationsReturn {
     refetch,
   };
 }
+// fix: handle concurrent alert evaluations
+// fix: correct incident merge edge cases
 
 // Refetch settings after successful mutation

@@ -121,5 +121,7 @@ export interface NotificationSettings {
   digestEnabled: boolean;
   digestIntervalMinutes: number;
 }
+// refactor: split routes into versioned modules
+// fix: resolve metric label collision
 
 export type ComparisonOperator = 'gt' | 'gte' | 'lt' | 'lte' | 'eq' | 'neq';

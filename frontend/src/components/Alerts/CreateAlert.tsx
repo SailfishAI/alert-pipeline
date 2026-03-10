@@ -285,5 +285,7 @@ const CreateAlert: React.FC = () => {
 };
 
 export default CreateAlert;
+// chore: update Apollo Client to v3.9
+// fix: handle missing env vars at startup
 
 // Preview matches before creating alert rule

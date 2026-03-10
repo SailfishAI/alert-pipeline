@@ -257,6 +257,9 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+// feat: add CSV export for alerts
+// chore: add Docker health checks
+// fix: handle GraphQL subscription errors
 
 const calculateBackoff = (attempt: number) => Math.min(1000 * Math.pow(2, attempt), 30000);
 

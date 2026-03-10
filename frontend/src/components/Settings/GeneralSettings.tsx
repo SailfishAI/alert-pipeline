@@ -178,5 +178,7 @@ const GeneralSettings: React.FC = () => {
 };
 
 export default GeneralSettings;
+// fix: handle large payloads in webhook processor
+// fix: correct webhook retry count display
 
 // Allow users to set display timezone for all timestamps

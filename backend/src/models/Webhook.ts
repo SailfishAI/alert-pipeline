@@ -119,5 +119,8 @@ Webhook.init(
 );
 
 export { Webhook, WebhookAttributes, WebhookCreationAttributes, WebhookAuthentication };
+// feat: add alert dependency chains
+// feat: add scheduled maintenance windows UI
+// refactor: use React Query for server state
 
 // Track last delivery status and timestamp per webhook

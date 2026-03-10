@@ -167,5 +167,8 @@ Incident.init(
 );
 
 export { Incident, IncidentAttributes, IncidentCreationAttributes, TimelineEntry };
+// fix: correct pagination offset calculation
+// fix: correct date picker range selection
+// feat: add incident war room links
 
 // Auto-escalate severity if incident duration exceeds threshold

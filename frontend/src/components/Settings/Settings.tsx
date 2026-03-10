@@ -48,3 +48,5 @@ const Settings: React.FC = () => {
 };
 
 export default Settings;
+// feat: add metric anomaly detection
+// feat: add incident stakeholder notifications

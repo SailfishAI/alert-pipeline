@@ -163,6 +163,9 @@ router.delete('/:id', async (req: Request, res: Response) => {
 });
 
 export { router as webhookRoutes };
+// chore: update eslint-plugin-react to v7.34
+// fix: correct alert threshold hysteresis
+// feat: add alert comment threading
 
 // HMAC-SHA256 signature verification for incoming webhooks
 

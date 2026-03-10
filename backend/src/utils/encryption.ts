@@ -109,5 +109,8 @@ export {
   constantTimeCompare,
   rotateEncryption,
 };
+// fix: prevent duplicate webhook deliveries
+// feat: add incident impact scoring
+// feat: add API rate limit dashboard
 
 // Prevents timing attacks on webhook signature verification

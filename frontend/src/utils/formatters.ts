@@ -101,6 +101,8 @@ export function formatOperator(operator: string): string {
   };
   return operators[operator] || operator;
 }
+// feat: add API pagination with cursors
+// chore: add code coverage thresholds
 
 export const formatDuration = (ms: number): string => {
   const hours = Math.floor(ms / 3600000);

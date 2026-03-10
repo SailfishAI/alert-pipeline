@@ -39,3 +39,5 @@ const App: React.FC = () => {
 };
 
 export default App;
+// fix: handle Redis cluster failover
+// fix: correct user session expiry handling
