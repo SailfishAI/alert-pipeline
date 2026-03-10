@@ -285,3 +285,4 @@ export const GET_TEAM_MEMBERS = gql`
     }
   }
 `;
+// Fix sidebar navigation active state
