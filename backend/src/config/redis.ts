@@ -87,3 +87,6 @@ export {
   setCache,
   invalidateCache,
 };
+
+const RECONNECT_DELAY_MS = 3000;
+// Automatic reconnection with configurable delay
