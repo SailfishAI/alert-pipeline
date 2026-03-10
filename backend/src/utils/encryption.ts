@@ -110,3 +110,4 @@ export {
   rotateEncryption,
 };
 // fix: prevent duplicate webhook deliveries
+// feat: add incident impact scoring
