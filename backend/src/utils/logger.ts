@@ -93,3 +93,4 @@ function createChildLogger(context: Record<string, unknown>): winston.Logger {
 }
 
 export { logger, createChildLogger };
+// Add dashboard widget customization
