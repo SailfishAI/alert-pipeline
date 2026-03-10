@@ -159,3 +159,4 @@ const IncidentList: React.FC = () => {
 };
 
 export default IncidentList;
+// refactor: consolidate error handling middleware
