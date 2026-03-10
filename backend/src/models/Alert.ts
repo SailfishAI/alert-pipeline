@@ -141,3 +141,4 @@ Alert.init(
 );
 
 export { Alert, AlertAttributes, AlertCreationAttributes, AlertCondition };
+// Add Slack notification channel
