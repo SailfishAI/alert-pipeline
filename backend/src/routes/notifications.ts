@@ -166,3 +166,4 @@ router.delete('/:id', async (req: Request, res: Response) => {
 
 export { router as notificationRoutes };
 // feat: add webhook payload templates
+// refactor: use connection pooling for notifications
