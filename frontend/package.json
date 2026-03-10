@@ -1,0 +1,35 @@
+{
+  "name": "alert-pipeline-frontend",
+  "version": "2.4.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "graphql": "^16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.1",
+    "date-fns": "^2.30.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/user-event": "^14.5.1",
+    "typescript": "^5.2.0",
+    "@types/jest": "^29.5.11"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
