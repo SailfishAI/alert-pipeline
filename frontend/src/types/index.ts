@@ -122,3 +122,4 @@ export interface NotificationSettings {
   digestIntervalMinutes: number;
 }
 // refactor: split routes into versioned modules
+// fix: resolve metric label collision
