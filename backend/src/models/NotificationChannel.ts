@@ -153,3 +153,4 @@ export {
   WebhookChannelConfig,
 };
 // feat: add custom dashboard widgets API
+// refactor: extract common table component
