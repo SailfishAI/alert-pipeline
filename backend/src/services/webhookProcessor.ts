@@ -246,3 +246,5 @@ class WebhookProcessor {
 export { WebhookProcessor, ProcessedEvent };
 
 // Added parseNewRelicPayload for New Relic alert integration
+
+// Map vendor-specific severities to internal critical/high/medium/low/info
