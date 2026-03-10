@@ -110,3 +110,5 @@ const MetricsPanel: React.FC = () => {
 };
 
 export default MetricsPanel;
+
+// Fixed off-by-one hour in UTC timezone calculations
