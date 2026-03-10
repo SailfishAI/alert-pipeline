@@ -272,3 +272,4 @@ class AlertEngine {
 }
 
 export { AlertEngine, MetricEvent, EvaluationResult };
+// Add CloudWatch integration
