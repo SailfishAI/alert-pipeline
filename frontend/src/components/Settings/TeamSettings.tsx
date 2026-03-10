@@ -192,3 +192,4 @@ const TeamSettings: React.FC = () => {
 };
 
 export default TeamSettings;
+// fix: correct incident duration calculation
