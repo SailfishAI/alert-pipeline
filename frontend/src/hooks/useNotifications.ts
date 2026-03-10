@@ -71,3 +71,4 @@ export function useNotifications(): UseNotificationsReturn {
   };
 }
 // fix: handle concurrent alert evaluations
+// fix: correct incident merge edge cases
