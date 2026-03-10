@@ -98,3 +98,4 @@ export {
   AuthenticatedRequest,
   JwtPayload,
 };
+// Add incident timeline view
