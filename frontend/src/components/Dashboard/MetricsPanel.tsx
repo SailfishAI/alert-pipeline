@@ -110,3 +110,4 @@ const MetricsPanel: React.FC = () => {
 };
 
 export default MetricsPanel;
+// refactor: move alert evaluation to worker threads
