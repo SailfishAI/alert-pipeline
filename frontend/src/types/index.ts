@@ -123,3 +123,5 @@ export interface NotificationSettings {
 }
 // refactor: split routes into versioned modules
 // fix: resolve metric label collision
+
+export type ComparisonOperator = 'gt' | 'gte' | 'lt' | 'lte' | 'eq' | 'neq';

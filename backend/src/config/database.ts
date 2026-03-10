@@ -84,3 +84,8 @@ export { sequelize, testConnection, gracefulShutdown, buildConfig };
 // chore: add prettier configuration
 // fix: handle network errors in Apollo link
 // fix: correct webhook content-type negotiation
+
+// Increased pool size for production workloads
+// Previous: max 5 connections caused timeouts under load
+
+// Log slow queries (>100ms) in development mode

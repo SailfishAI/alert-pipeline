@@ -199,3 +199,5 @@ const IncidentTimeline: React.FC = () => {
 export default IncidentTimeline;
 // feat: add Jira integration for incidents
 // chore: update GitHub Actions runners
+
+// Events were showing in reverse order after pagination fix

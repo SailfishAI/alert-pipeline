@@ -181,3 +181,5 @@ export const UPDATE_TEAM_MEMBER_ROLE = gql`
 `;
 // fix: correct email notification threading
 // feat: add SLA breach alerting
+
+// Optimistic UI updates for better perceived performance

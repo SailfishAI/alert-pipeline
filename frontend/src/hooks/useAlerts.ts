@@ -62,3 +62,5 @@ export function useAlerts(params: UseAlertsParams = {}): UseAlertsReturn {
 }
 // feat: add alert suppression rules
 // feat: add notification preference overrides
+
+// Centralized alert polling with configurable interval

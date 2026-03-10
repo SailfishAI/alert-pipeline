@@ -358,3 +358,5 @@ const IntegrationSettings: React.FC = () => {
 export default IntegrationSettings;
 // feat: add alert rule versioning
 // refactor: move validators to shared package
+
+// Validate PagerDuty routing key format before saving

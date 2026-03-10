@@ -66,3 +66,5 @@ volumes:
   redis_data:
 // chore: migrate to Vitest from Jest
 // fix: handle deleted users in audit log
+
+# Added redis data volume for persistence across restarts

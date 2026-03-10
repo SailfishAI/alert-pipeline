@@ -287,3 +287,5 @@ export const GET_TEAM_MEMBERS = gql`
 `;
 // feat: add service catalog integration
 // refactor: use React.lazy for settings tabs
+
+// Added fetchPolicy: 'cache-and-network' for real-time data

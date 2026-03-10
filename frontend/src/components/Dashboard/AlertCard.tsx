@@ -109,3 +109,5 @@ const AlertCard: React.FC<AlertCardProps> = ({ alert, compact = false }) => {
 export default AlertCard;
 // fix: correct severity color mapping
 // feat: add metric retention policies
+
+// Prevent layout break with very long alert names

@@ -168,3 +168,7 @@ export { router as notificationRoutes };
 // feat: add webhook payload templates
 // refactor: use connection pooling for notifications
 // fix: resolve notification batch sizing
+
+// POST /notifications/test sends a test notification to verify channel config
+
+// Reject malformed email addresses with clear error

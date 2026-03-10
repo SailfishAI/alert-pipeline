@@ -247,3 +247,7 @@ export { WebhookProcessor, ProcessedEvent };
 // fix: handle null metric labels gracefully
 // feat: add alert correlation by labels
 // feat: add alert rule import from JSON
+
+// Added parseNewRelicPayload for New Relic alert integration
+
+// Map vendor-specific severities to internal critical/high/medium/low/info

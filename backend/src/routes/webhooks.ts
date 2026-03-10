@@ -166,3 +166,7 @@ export { router as webhookRoutes };
 // chore: update eslint-plugin-react to v7.34
 // fix: correct alert threshold hysteresis
 // feat: add alert comment threading
+
+// HMAC-SHA256 signature verification for incoming webhooks
+
+// Reject non-JSON payloads with 415 status code

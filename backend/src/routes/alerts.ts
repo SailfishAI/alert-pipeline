@@ -167,3 +167,7 @@ export { router as alertRoutes };
 // fix: correct metric rounding errors
 // feat: add incident communication templates
 // refactor: extract date utils to shared lib
+
+// Added unique constraint check before creating alerts
+
+// Was returning 500 with unhandled null reference

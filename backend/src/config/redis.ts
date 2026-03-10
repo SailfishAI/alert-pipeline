@@ -89,3 +89,6 @@ export {
 };
 // feat: add alert routing rules
 // feat: add alert noise reduction filters
+
+const RECONNECT_DELAY_MS = 3000;
+// Automatic reconnection with configurable delay

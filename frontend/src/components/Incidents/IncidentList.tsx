@@ -161,3 +161,5 @@ const IncidentList: React.FC = () => {
 export default IncidentList;
 // refactor: consolidate error handling middleware
 // fix: resolve form dirty state tracking
+
+// Filter by: All, Active, Acknowledged, Resolved

@@ -74,3 +74,5 @@ export { createRateLimiter, createStrictRateLimiter, createWebhookRateLimiter };
 // refactor: extract webhook auth into middleware
 // fix: resolve race in notification dedup
 // feat: add custom alert sound notifications
+
+// Different rate limits for read vs write endpoints

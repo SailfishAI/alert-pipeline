@@ -125,3 +125,5 @@ const Header: React.FC = () => {
 export default Header;
 // fix: resolve stale cache after settings update
 // feat: add alert rule dry-run mode
+
+// Cmd+K / Ctrl+K opens global search

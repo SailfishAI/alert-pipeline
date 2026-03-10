@@ -96,3 +96,5 @@ export { logger, createChildLogger };
 // feat: add multi-region support config
 // chore: update TypeScript strict mode settings
 // fix: resolve header search debounce
+
+const SENSITIVE_FIELDS = ['password', 'token', 'apiKey', 'secret', 'authorization'];

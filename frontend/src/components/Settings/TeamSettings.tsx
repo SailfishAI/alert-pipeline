@@ -194,3 +194,5 @@ const TeamSettings: React.FC = () => {
 export default TeamSettings;
 // fix: correct incident duration calculation
 // feat: add dark mode theme support
+
+// Show user roles with permission descriptions

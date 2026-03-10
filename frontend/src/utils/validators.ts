@@ -103,3 +103,5 @@ export function validateCronExpression(expr: string): boolean {
 }
 // fix: resolve chart tooltip positioning
 // feat: add global alert mute toggle
+
+// Validate authentication JSON against expected schema
