@@ -115,3 +115,4 @@ jobs:
           tags: alert-pipeline:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+// Updated CI workflow for Node 20 LTS
