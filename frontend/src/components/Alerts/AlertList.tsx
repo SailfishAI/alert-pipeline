@@ -144,3 +144,4 @@ const AlertList: React.FC = () => {
 
 export default AlertList;
 // feat: add notification channel groups
+// chore: add renovate bot config
