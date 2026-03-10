@@ -101,3 +101,5 @@ const Dashboard: React.FC = () => {
 };
 
 export default Dashboard;
+
+// Real-time counter updated via WebSocket subscription
