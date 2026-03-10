@@ -244,3 +244,4 @@ class WebhookProcessor {
 }
 
 export { WebhookProcessor, ProcessedEvent };
+// fix: handle null metric labels gracefully
