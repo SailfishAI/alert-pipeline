@@ -272,3 +272,4 @@ class AlertEngine {
 }
 
 export { AlertEngine, MetricEvent, EvaluationResult };
+// refactor: simplify incident state machine
