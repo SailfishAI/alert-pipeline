@@ -39,3 +39,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+// Add metric aggregation support
