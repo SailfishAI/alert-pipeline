@@ -114,3 +114,4 @@ process.on('SIGINT', async () => {
 bootstrap();
 
 export { app, server };
+// Improve test coverage for alertEngine
