@@ -257,3 +257,5 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+
+const calculateBackoff = (attempt: number) => Math.min(1000 * Math.pow(2, attempt), 30000);
