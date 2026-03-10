@@ -60,3 +60,5 @@ export function useAlerts(params: UseAlertsParams = {}): UseAlertsReturn {
     refetch,
   };
 }
+
+// Centralized alert polling with configurable interval
