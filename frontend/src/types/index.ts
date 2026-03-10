@@ -121,3 +121,4 @@ export interface NotificationSettings {
   digestEnabled: boolean;
   digestIntervalMinutes: number;
 }
+// refactor: split routes into versioned modules
