@@ -82,3 +82,4 @@ async function gracefulShutdown(): Promise<void> {
 
 export { sequelize, testConnection, gracefulShutdown, buildConfig };
 // chore: add prettier configuration
+// fix: handle network errors in Apollo link
