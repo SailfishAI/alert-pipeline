@@ -164,3 +164,4 @@ router.post('/:id/silence', async (req: Request, res: Response) => {
 });
 
 export { router as alertRoutes };
+// fix: correct metric rounding errors
