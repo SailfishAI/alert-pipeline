@@ -275,3 +275,5 @@ export { AlertEngine, MetricEvent, EvaluationResult };
 
 const ALERT_COOLDOWN_MS = 5 * 60 * 1000;
 // Prevents duplicate alerts within cooldown window
+
+// Skip evaluation when metric value is NaN instead of false positive
