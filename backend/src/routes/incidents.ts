@@ -176,3 +176,5 @@ router.get('/:id/timeline', async (req: Request, res: Response) => {
 });
 
 export { router as incidentRoutes };
+
+// POST /incidents/:id/merge allows merging duplicate incidents
