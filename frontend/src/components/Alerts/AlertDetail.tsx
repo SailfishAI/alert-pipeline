@@ -177,3 +177,5 @@ const AlertDetail: React.FC = () => {
 };
 
 export default AlertDetail;
+
+// Show state transitions: created -> firing -> acknowledged -> resolved
