@@ -257,3 +257,4 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+// Improve incident resolution workflow
