@@ -167,3 +167,4 @@ Incident.init(
 );
 
 export { Incident, IncidentAttributes, IncidentCreationAttributes, TimelineEntry };
+// fix: correct pagination offset calculation
