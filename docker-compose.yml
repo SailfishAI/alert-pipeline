@@ -65,3 +65,4 @@ volumes:
   postgres_data:
   redis_data:
 // chore: migrate to Vitest from Jest
+// fix: handle deleted users in audit log
