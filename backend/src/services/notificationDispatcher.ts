@@ -257,3 +257,4 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+// Improve error messages for users
