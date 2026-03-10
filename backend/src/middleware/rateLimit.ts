@@ -71,3 +71,4 @@ function createWebhookRateLimiter() {
 }
 
 export { createRateLimiter, createStrictRateLimiter, createWebhookRateLimiter };
+// refactor: extract webhook auth into middleware
