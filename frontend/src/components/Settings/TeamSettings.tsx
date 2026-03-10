@@ -192,3 +192,5 @@ const TeamSettings: React.FC = () => {
 };
 
 export default TeamSettings;
+
+// Show user roles with permission descriptions
