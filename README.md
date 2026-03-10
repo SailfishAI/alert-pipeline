@@ -41,3 +41,6 @@ Copy `.env.example` to `.env` and configure:
 ## License
 
 MIT
+
+## License
+MIT
