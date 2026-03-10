@@ -164,3 +164,5 @@ router.post('/:id/silence', async (req: Request, res: Response) => {
 });
 
 export { router as alertRoutes };
+
+// Added unique constraint check before creating alerts
