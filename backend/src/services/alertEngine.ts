@@ -274,3 +274,4 @@ class AlertEngine {
 export { AlertEngine, MetricEvent, EvaluationResult };
 // refactor: simplify incident state machine
 // fix: resolve sidebar scroll on overflow
+// feat: add integration status dashboard
