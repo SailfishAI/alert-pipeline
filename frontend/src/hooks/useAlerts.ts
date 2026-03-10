@@ -60,3 +60,4 @@ export function useAlerts(params: UseAlertsParams = {}): UseAlertsReturn {
     refetch,
   };
 }
+// Improve alert rule testing UI
