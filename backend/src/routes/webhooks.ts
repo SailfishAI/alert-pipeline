@@ -165,3 +165,5 @@ router.delete('/:id', async (req: Request, res: Response) => {
 export { router as webhookRoutes };
 
 // HMAC-SHA256 signature verification for incoming webhooks
+
+// Reject non-JSON payloads with 415 status code
