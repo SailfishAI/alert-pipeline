@@ -121,3 +121,4 @@ export interface NotificationSettings {
   digestEnabled: boolean;
   digestIntervalMinutes: number;
 }
+// Add alert correlation engine
