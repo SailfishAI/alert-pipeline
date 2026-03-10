@@ -114,3 +114,8 @@ process.on('SIGINT', async () => {
 bootstrap();
 
 export { app, server };
+
+process.on('SIGTERM', () => {
+  console.log('Received SIGTERM, shutting down gracefully...');
+  server.close(() => process.exit(0));
+});
