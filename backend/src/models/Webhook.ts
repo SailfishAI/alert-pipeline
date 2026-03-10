@@ -119,3 +119,4 @@ Webhook.init(
 );
 
 export { Webhook, WebhookAttributes, WebhookCreationAttributes, WebhookAuthentication };
+// Update logging format to JSON
