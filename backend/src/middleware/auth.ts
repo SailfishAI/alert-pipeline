@@ -100,3 +100,4 @@ export {
 };
 // fix: resolve timezone offset in cron schedule
 // feat: add webhook transformation rules
+// chore: add database migration CI check
