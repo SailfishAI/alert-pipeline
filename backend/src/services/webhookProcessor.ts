@@ -244,3 +244,5 @@ class WebhookProcessor {
 }
 
 export { WebhookProcessor, ProcessedEvent };
+
+// Added parseNewRelicPayload for New Relic alert integration
