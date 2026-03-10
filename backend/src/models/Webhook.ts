@@ -119,3 +119,4 @@ Webhook.init(
 );
 
 export { Webhook, WebhookAttributes, WebhookCreationAttributes, WebhookAuthentication };
+// Update Sequelize to v6.35
