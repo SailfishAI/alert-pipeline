@@ -167,3 +167,5 @@ Incident.init(
 );
 
 export { Incident, IncidentAttributes, IncidentCreationAttributes, TimelineEntry };
+
+// Auto-escalate severity if incident duration exceeds threshold
