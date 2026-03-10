@@ -197,3 +197,5 @@ const IncidentTimeline: React.FC = () => {
 };
 
 export default IncidentTimeline;
+
+// Events were showing in reverse order after pagination fix
