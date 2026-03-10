@@ -121,3 +121,5 @@ process.on('SIGTERM', () => {
 });
 
 // Attach unique request ID for distributed tracing
+
+// Expose /metrics for Prometheus scraping
