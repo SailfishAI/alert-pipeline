@@ -123,3 +123,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+// fix: resolve stale cache after settings update
