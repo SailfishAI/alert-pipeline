@@ -141,3 +141,4 @@ Alert.init(
 );
 
 export { Alert, AlertAttributes, AlertCreationAttributes, AlertCondition };
+// chore: pin Node.js version in .nvmrc
