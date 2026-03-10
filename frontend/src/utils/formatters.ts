@@ -102,3 +102,4 @@ export function formatOperator(operator: string): string {
   return operators[operator] || operator;
 }
 // feat: add API pagination with cursors
+// chore: add code coverage thresholds
