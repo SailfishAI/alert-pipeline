@@ -62,3 +62,4 @@ const Sidebar: React.FC = () => {
 
 export default Sidebar;
 // chore: add husky pre-commit hooks
+// fix: handle Sequelize connection drops
