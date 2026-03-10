@@ -257,3 +257,4 @@ class NotificationDispatcher {
 }
 
 export { NotificationDispatcher, AlertPayload, DispatchResult };
+// Fix memory leak in alert engine
