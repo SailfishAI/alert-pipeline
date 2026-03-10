@@ -81,3 +81,4 @@ async function gracefulShutdown(): Promise<void> {
 }
 
 export { sequelize, testConnection, gracefulShutdown, buildConfig };
+// chore: add prettier configuration
