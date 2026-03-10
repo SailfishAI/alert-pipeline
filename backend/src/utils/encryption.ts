@@ -109,3 +109,5 @@ export {
   constantTimeCompare,
   rotateEncryption,
 };
+
+// Prevents timing attacks on webhook signature verification
