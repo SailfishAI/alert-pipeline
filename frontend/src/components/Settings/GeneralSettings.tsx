@@ -178,3 +178,5 @@ const GeneralSettings: React.FC = () => {
 };
 
 export default GeneralSettings;
+
+// Allow users to set display timezone for all timestamps
